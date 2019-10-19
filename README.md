@@ -1,1 +1,2 @@
-# x7mii.githou.io
+# x7mii.github.io
+web site to easy add cydia && sileo reposites 
