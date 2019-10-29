@@ -1,25 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
-html{background:#0E3F48;align-content:center ;}
-#tit{text-align:center; font-size: 24px; ; color: white; font-family:lobster}
 
-.box{;background: #5B85B1 ;min-height: 160px;max-width: 155px; margin-left: auto; margin-right: auto; margin-top:20px; text-align:center;border-radius:10px ;border-color:#5B85B1 ;box-shadow: 0 12px 16px 0 rgba(255,255,255,0.28), 0 17px 50px 0 rgba(0,0,0,0.19);} 
+html{background:#0E3F48;align-content:center ; max-width: 1000px}
+#tit{text-align:center; font-size: 30px; ; color: white; font-family:lobster}
 
-.name{font-size: 14px; margin-bottom: 10px ; color: black; font-weight: 800 ; font-family: aclonica}
+.box{;background: #5B85B1 ;max-height: 300px;max-width: 250px; margin-left: auto; margin-right: auto; margin-top:20px; text-align:center ;border-radius:10px ;border-color:#5B85B1 ;box-shadow: 0 12px 16px 0 rgba(255,255,255,0.28), 0 17px 50px 0 rgba(0,0,0,0.19);} 
+
+.name{font-size: 22px; margin-bottom: 10px ; color: black; font-weight: 800 ; font-family: aclonica}
 
 .logo{ margin-bottom:10px ; padding-top: 10px}
-.logo img {max-width:50px; max-height:50px;border-radius:3px ;border-color:#c56d86}
+.logo img {max-width:70px; max-height:70px;border-radius:3px ;border-color:#c56d86}
 
-.btns{display: flex;flex-direction: row;justify-content: flex-start; list-style: inside; padding:0; float: left; margin-left: 10px;}
+.btns{display: flex;flex-direction: row;justify-content: flex-start; list-style: inside; padding:0; float: left; margin-left: 17px;}
 
-.cydiabtn{ border-radius:3px ;border-color:#c56d86  ;background: #c56d86;margin-left: 0;font-family: 'teko' , sans-serif ; font-weight: bolder}
+.cydiabtn{ border-radius:3px ;border-color:#c56d86  ;background: #c56d86;margin-left: 0;font-family: 'teko' , sans-serif ; font-weight: bolder; min-height: 30px;min-width: 70px;font-size: 16px}
 
-.sileobtn{ border-radius:3px ;border-color:#ff7582  ;background: #ff7582;font-family: 'teko' , sans-serif ; font-weight: bolder; margin-left: 3px}
+.sileobtn{ border-radius:3px ;border-color:#ff7582  ;background: #ff7582;font-family: 'teko' , sans-serif ; font-weight: bolder; margin-left: 3px; min-height: 30px;min-width: 70px;font-size: 16px}
 
-.zebrabtn{ border-radius:3px ;border-color:#8291A2  ;background: #8291A2;font-family: 'teko' , sans-serif ; font-weight: bolder ;margin-right: 20px ; margin-left: 3px}
+.zebrabtn{ border-radius:3px ;border-color:#8291A2  ;background: #8291A2;font-family: 'teko' , sans-serif ; font-weight: bolder ;margin-right:auto;margin-left: 3px ; margin-bottom: 10px; min-height: 30px;min-width: 70px;font-size: 16px}
 
 ul.list li{ display: inline;float: left;}
 
-.usr{text-align: center; color:#FFFF00 ; font-weight: 600 ; float: left ; margin-right: 90px ; margin-left: 5px ; margin-top: 10px;margin-bottom: 10px; font-family: "source-sans-pro"}
+.usr{text-align:center ;color:#FFFF00 ; font-weight: bold; margin-top: 40px;margin-bottom:3px; font-family:  Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 15px}
 
-.dis{text-align: center; font-family: 'Ubuntu';margin-top: 20px; color:white}
+.dis{text-align: center; font-family: 'Ubuntu';margin-top:10px; color:white ; font-size: 13px; padding-top: 10px}
+.zz{ color:#5B85B1 }
